@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div>
-          <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
+          <h4 className="text-lg font-semibold mb-4">Follow Us.</h4>
           <div className="flex space-x-4">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">
               <FaFacebook size={24} />
