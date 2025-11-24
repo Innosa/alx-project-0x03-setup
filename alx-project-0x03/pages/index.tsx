@@ -1,19 +1,11 @@
-import { ReactNode } from "react";
-import Footer from "../components/layouts/Footer";
-import Header from "../components/layouts/Header";
+import React from 'react';
 
-interface LayoutProps {
-  children: ReactNode;
-}
-
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Home: React.FC = () => {
   return (
-    <>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </>
+    <div>
+      <h1>Welcome to Splash App</h1>
+    </div>
   );
 };
 
-export default Layout;
+export default Home;
